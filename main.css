@@ -2,15 +2,13 @@
 	background-color: #fff;
 	display: grid;
 	grid-template-columns: repeat(5,1fr);
-	grid-template-rows:repeat(5,200px);
+	grid-template-rows:repeat(3,200px);
 	justify-content: space-around;
 	grid-gap: 20px;
 }
 .container div{
 	background-color:#03AAC4;
 	box-shadow: 1px 1px 13px 5px rgba(0,0,0,0.22);
-	transform: scale(1);
-	transition: .3s ease-in-out;
 	align-items: center;
 	display: flex;
 	justify-content: center;
